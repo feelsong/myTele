@@ -5,7 +5,6 @@
 
     <ul class="nav site-nav desktop">
       {{#if canView}}
-     <!--
       <li class="dropdown">
         <a class="View" href="/">{{i18n "View"}}</a>
         <div class="dropdown-menu">
@@ -17,23 +16,6 @@
           </ul>
         </div>
       </li>
-      -->
-     <li> 
-       <a class="new" href="/new">NEW</a>
-     </li>
-
-     <li>
-       <a class="top" href="/top">TOP</a>
-     </li>
-     
-     <li>
-       <a class="best" href="/best">BEST</a>
-     </li>
-
-     <li>
-       <a class="digest" href="/digest">DIGEST</a>
-     </li>
-     
       {{/if}}
       {{#if hasCategories}}
       <li class="dropdown">

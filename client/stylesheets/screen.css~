@@ -112,8 +112,7 @@ html, body, .outer-wrapper {
 
 /* line 4, ../sass/partials/_main.scss */
 body {
-  /*background: #e0f1f7;*/
-  background: #DCE0E6; }
+  background: #e0f1f7; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   /* line 9, ../sass/partials/_main.scss */
@@ -672,8 +671,8 @@ body.pageslide-open {
 
 /* line 10, ../sass/modules/_header.scss */
 .header {
-  /*background: #4e555d url("/img/bg-header.png") top center;*/
-  background-color: #1F1F20;
+  background: #4e555d url("/img/bg-header.png") top center;
+  background-color: #4e555d;
   margin-bottom: 10px;
   height: 70px;
   position: relative;
@@ -1922,7 +1921,7 @@ table {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
-    -o-bo567EBBrder-radius: 0px;
+    -o-border-radius: 0px;
     border-radius: 0px; }
     /* line 91, ../sass/partials/_mobile.scss */
     .header .logo {
